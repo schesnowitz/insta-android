@@ -35,45 +35,6 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
 
-//    ParseObject coords = new ParseObject("Coords");
-//
-//    coords.put("status", "onDuty");
-//    coords.put("latitude", "1231");
-//      coords.put("number", 1234);
-//    coords.saveInBackground(new SaveCallback() {
-//      @Override
-//      public void done(ParseException e) {
-//        if (e == null) {
-//          Log.i("saveEventually", "all okay");
-//        } else {
-//          Log.i("saveEventually", "some problem, Details: " + e.toString());
-//        }
-//      }
-//    });
-
-
-
-      ParseQuery<ParseObject> query = ParseQuery.getQuery("Coords");
-
-      query.getInBackground("qhoHygArF0", new GetCallback<ParseObject>() {
-          @Override
-          public void done(ParseObject object, ParseException e) {
-                  if (e == null && object != null) {
-
-                      object.put("status", "GFYS" );
-                      object.saveInBackground();
-
-
-                    Log.i("ObjectValue", object.getString("status"));
-                    Log.i("ObjectValue", object.getString("latitude"));
-                    Log.i("ObjectValue", Integer.toString(object.getInt("number")));
-
-            } else {
-                    Log.i("saveEventually", "some problem, Details: " + e.toString());
-            }
-          }
-      });
-
 
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());

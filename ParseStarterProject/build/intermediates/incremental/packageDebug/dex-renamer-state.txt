@@ -1,7 +1,7 @@
-#Mon May 15 03:57:00 EDT 2017
-base.0=C\:\\Users\\steve\\Desktop\\Applications\\android\\ParseServer\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3bc1e44ecbd33551963d17d3a502d2bff22d137c
+#Tue May 16 07:54:16 EDT 2017
+base.0=C\:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8a76d838aadfa933c4f5a5c4b070be07bfd1ea3c
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=C\:\\Users\\steve\\Desktop\\Applications\\android\\ParseServer\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_abfb1a046c4aef048e261ad1eb7b20ce25e74a92\\classes.dex
-base.1=C\:\\Users\\steve\\Desktop\\Applications\\android\\ParseServer\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_abfb1a046c4aef048e261ad1eb7b20ce25e74a92
-file.0=C\:\\Users\\steve\\Desktop\\Applications\\android\\ParseServer\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3bc1e44ecbd33551963d17d3a502d2bff22d137c\\classes.dex
+file.1=C\:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_07365581260020494f9ebfd93359b29b1d681d6f\\classes.dex
+base.1=C\:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_07365581260020494f9ebfd93359b29b1d681d6f
+file.0=C\:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8a76d838aadfa933c4f5a5c4b070be07bfd1ea3c\\classes.dex
