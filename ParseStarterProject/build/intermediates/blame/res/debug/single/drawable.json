@@ -184,6 +184,10 @@
         "source": "C:\\Users\\steve\\.android\\build-cache\\21f44fb8e1d8ac042929a497811526fce5f2657e\\output\\res\\drawable\\cast_ic_notification_forward10.xml"
     },
     {
+        "merged": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable\\instagram.png",
+        "source": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\src\\main\\res\\drawable\\instagram.png"
+    },
+    {
         "merged": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_bg_gradient_light.xml",
         "source": "C:\\Users\\steve\\.android\\build-cache\\21f44fb8e1d8ac042929a497811526fce5f2657e\\output\\res\\drawable\\cast_expanded_controller_bg_gradient_light.xml"
     },

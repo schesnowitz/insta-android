@@ -11,9 +11,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -31,9 +33,13 @@ import com.parse.SaveCallback;
 import com.parse.SignUpCallback;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener {
+
   Boolean signUpModeIsActive = true;
   TextView changeSignupTextView;
+  EditText passwordEditText;
+
+
   @Override
   public void onClick(View v) { // see onClickListener below...
     if (v.getId() == R.id.changeSignupTextView) {
@@ -56,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   public void signUp (View view) {
 
     EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);
-    EditText passwordEditText = (EditText) findViewById(R.id.passwordEditText);
+
 
     if (usernameEditText.getText().toString().matches("") || passwordEditText.getText().toString().matches("")) {
 
@@ -104,9 +110,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     changeSignupTextView = (TextView) findViewById(R.id.changeSignupTextView);
     changeSignupTextView.setOnClickListener(this);
+    passwordEditText = (EditText) findViewById(R.id.passwordEditText);
 
+    RelativeLayout mainBackground = (RelativeLayout) findViewById(R.id.mainBackground);
+
+    changeSignupTextView.setOnClickListener(this);
+
+    passwordEditText.setOnKeyListener(this);
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
+
 
 }
