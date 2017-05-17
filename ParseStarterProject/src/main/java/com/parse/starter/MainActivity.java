@@ -8,12 +8,17 @@
  */
 package com.parse.starter;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -31,9 +36,21 @@ import com.parse.SaveCallback;
 import com.parse.SignUpCallback;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener {
+
   Boolean signUpModeIsActive = true;
   TextView changeSignupTextView;
+  EditText passwordEditText;
+
+  @Override
+  public boolean onKey(View v, int keyCode, KeyEvent event) {
+
+    if (keyCode == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN) {
+      signUp(v);
+    }
+    return false;
+  }
+
   @Override
   public void onClick(View v) { // see onClickListener below...
     if (v.getId() == R.id.changeSignupTextView) {
@@ -50,13 +67,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         signupButton.setText("Sign Up");
         changeSignupTextView.setText("Log In");
       }
+    } else if (v.getId() == R.id.imageView || v.getId() == R.id.backgroundView) {
+      InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+      inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),0);
     }
   }
 
   public void signUp (View view) {
 
     EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);
-    EditText passwordEditText = (EditText) findViewById(R.id.passwordEditText);
+
 
     if (usernameEditText.getText().toString().matches("") || passwordEditText.getText().toString().matches("")) {
 
@@ -102,11 +122,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
+    passwordEditText = (EditText) findViewById(R.id.passwordEditText);
+    passwordEditText.setOnKeyListener(this);
+
     changeSignupTextView = (TextView) findViewById(R.id.changeSignupTextView);
     changeSignupTextView.setOnClickListener(this);
 
+    RelativeLayout backgroundView = (RelativeLayout) findViewById(R.id.backgroundView);
+    backgroundView.setOnClickListener(this);
+
+    ImageView imageView = (ImageView) findViewById(R.id.imageView);
+    imageView.setOnClickListener(this);
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
+
 
 }
