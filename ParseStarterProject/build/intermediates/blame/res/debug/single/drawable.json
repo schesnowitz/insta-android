@@ -188,6 +188,10 @@
         "source": "C:\\Users\\steve\\.android\\build-cache\\21f44fb8e1d8ac042929a497811526fce5f2657e\\output\\res\\drawable\\cast_expanded_controller_bg_gradient_light.xml"
     },
     {
+        "merged": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable\\instagram.png",
+        "source": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\src\\main\\res\\drawable\\instagram.png"
+    },
+    {
         "merged": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
         "source": "C:\\Users\\steve\\.android\\build-cache\\fa08db341a154c0eed71956290cdca1a4c9cf965\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },

@@ -1,4 +1,4 @@
-#Tue May 16 07:54:16 EDT 2017
+#Wed May 17 04:44:56 EDT 2017
 file.58=C\:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_0b2cc9342d7590331d68833cfe1c0da887aef424\\classes.dex
 file.57=C\:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_7dff04a6164933cd4ec209dbbad3f623857db559\\classes.dex
 file.56=C\:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_c0a65f3de1158c3fa308a87e287dcfc19976ff1c\\classes.dex
