@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d108b5f5c8fa822c0ac3f5a59407bb0274b51162">
+        sha1="4d9da5f00b1eee0fd5fbfaa6019c922f8686dd04">
         <dex dex="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_07365581260020494f9ebfd93359b29b1d681d6f\classes.dex" />
     </item>
     <item
@@ -381,6 +381,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\steve\.android\build-cache\7a664c4c660590c579cba764e0023bc464f54a5c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\classes_876604f6488d88bcbc3d140a121f5dc0bd4d64af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\steve\.android\build-cache\8d93c1669496ebe1fa6d922b4d526c5c7e769dd9\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -414,6 +423,15 @@
         revision="25.0.0"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
         <dex dex="C:\Users\steve\Desktop\Applications\android\ParseServer\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c0092c02350f38e36f2ac34666ab38764427551c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\steve\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_d5630409a04033770166211307689e36a863294d\classes.dex" />
     </item>
     <item
         is-multidex="true"
