@@ -6,29 +6,22 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1495086612414"
+    timestamp="1495089544096"
     token="-4626479885029408145"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="299" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="25" />
+        duration="0" />
     <task
         name="verifier"
-        duration="5" />
-
-    <artifact
-        location="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\outputs\apk\ParseStarterProject-debug.apk"
-        type="SPLIT_MAIN" />
+        duration="0" />
 
     <build
         build-mode="FULL"
@@ -73,15 +66,21 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1495085829982"
+        timestamp="1495088347369"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\outputs\apk\ParseStarterProject-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1495086612414"
+        timestamp="1495089449464"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -90,5 +89,9 @@
             location="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\outputs\apk\ParseStarterProject-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1495089544096"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

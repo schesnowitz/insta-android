@@ -48,6 +48,10 @@
         "source": "C:\\Users\\steve\\.android\\build-cache\\21f44fb8e1d8ac042929a497811526fce5f2657e\\output\\res\\layout\\cast_mini_controller.xml"
     },
     {
+        "merged": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_feed.xml",
+        "source": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\src\\main\\res\\layout\\activity_user_feed.xml"
+    },
+    {
         "merged": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -64,12 +68,12 @@
         "source": "C:\\Users\\steve\\.android\\build-cache\\c2849b84cbd4965fe509866ccd9db1189822a22f\\output\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\steve\\.android\\build-cache\\c2849b84cbd4965fe509866ccd9db1189822a22f\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\steve\\.android\\build-cache\\c2849b84cbd4965fe509866ccd9db1189822a22f\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\steve\\.android\\build-cache\\c2849b84cbd4965fe509866ccd9db1189822a22f\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
