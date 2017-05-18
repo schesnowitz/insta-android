@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:10:1-37:12
+ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:10:1-38:12
 	package
 		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:11:11-38
 		INJECTED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml
@@ -51,7 +51,7 @@ ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStart
 	android:name
 		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:16:22-76
 application
-ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:18:5-35:19
+ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:19:5-36:19
 MERGED from [com.google.android.gms:play-services:9.4.0] C:\Users\steve\.android\build-cache\405b70074b41cba525900e42574a59cde25c97cf\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\steve\.android\build-cache\14fefad12e1c390bc4b8cc3a9941fe36dc516d4b\output\AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\steve\.android\build-cache\ba1fe0bb0dd4cee4f4aaff18f485e10bfacbcfe5\output\AndroidManifest.xml:27:5-20
@@ -99,35 +99,35 @@ MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\steve
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\steve\.android\build-cache\795fb791e943619fed04fd3a217f7db175088906\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\steve\.android\build-cache\7a664c4c660590c579cba764e0023bc464f54a5c\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:22:9-41
+		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:23:9-41
 	android:allowBackup
-		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:21:9-35
 	android:icon
-		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:21:9-43
+		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:22:9-43
 	android:theme
-		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:23:9-40
+		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:24:9-40
 	android:name
-		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:19:9-43
+		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:20:9-43
 activity#com.parse.starter.MainActivity
-ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:25:9-33:20
 	android:label
-		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:26:13-45
+		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:27:13-45
 	android:name
-		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:25:13-41
+		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:26:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:28:17-68
+ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:29:17-68
 	android:name
-		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:30:17-76
+ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:31:17-76
 	android:name
-		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:31:27-74
 activity#com.parse.starter.UserListActivity
-ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:33:9-34:20
+ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:34:9-35:20
 	android:name
-		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:33:19-51
+		ADDED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml:34:19-51
 uses-sdk
 INJECTED from C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services:9.4.0] C:\Users\steve\.android\build-cache\405b70074b41cba525900e42574a59cde25c97cf\output\AndroidManifest.xml:4:5-42
