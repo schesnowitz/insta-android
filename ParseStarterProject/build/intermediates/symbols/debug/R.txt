@@ -978,6 +978,7 @@ int id listMode 0x7f0e0020
 int id list_item 0x7f0e007b
 int id loading_indicator 0x7f0e00b9
 int id logo_only 0x7f0e0069
+int id logout 0x7f0e00ec
 int id main_container 0x7f0e00ab
 int id match_global_nicknames 0x7f0e0053
 int id match_parent 0x7f0e0062

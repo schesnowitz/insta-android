@@ -3288,6 +3288,7 @@ containing a value of this type.
         public static final int list_item=0x7f0e007b;
         public static final int loading_indicator=0x7f0e00b9;
         public static final int logo_only=0x7f0e0069;
+        public static final int logout=0x7f0e00ec;
         public static final int main_container=0x7f0e00ab;
         public static final int match_global_nicknames=0x7f0e0053;
         public static final int match_parent=0x7f0e0062;

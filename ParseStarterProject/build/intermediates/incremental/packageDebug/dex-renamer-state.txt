@@ -1,4 +1,4 @@
-#Thu May 18 02:19:16 EDT 2017
+#Thu May 18 03:03:38 EDT 2017
 base.0=C\:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8a76d838aadfa933c4f5a5c4b070be07bfd1ea3c
 renamed.1=classes.dex
 renamed.0=classes2.dex

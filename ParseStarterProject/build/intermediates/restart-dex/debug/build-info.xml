@@ -6,22 +6,29 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1495089544096"
+    timestamp="1495091014290"
     token="-4626479885029408145"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="488" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="53" />
     <task
         name="verifier"
-        duration="0" />
+        duration="42" />
+
+    <artifact
+        location="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\outputs\apk\ParseStarterProject-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -80,7 +87,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1495089449464"
+        timestamp="1495091014290"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -89,9 +96,5 @@
             location="C:\Users\steve\Desktop\Applications\android\InstagramClone\ParseStarterProject\build\outputs\apk\ParseStarterProject-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1495089544096"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

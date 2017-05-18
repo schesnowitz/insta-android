@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu May 18 02:19:14 EDT 2017
+#Thu May 18 03:03:36 EDT 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\steve\\Desktop\\Applications\\android\\InstagramClone\\ParseStarterProject\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_search_view.xml
 14.set=ANDROID_RESOURCE
